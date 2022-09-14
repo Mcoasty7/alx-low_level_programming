@@ -5,7 +5,7 @@
  * @c: is the int that will use for the arguent of the function
  * Return: 0
  */
-inr _abs(int c)
+int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
