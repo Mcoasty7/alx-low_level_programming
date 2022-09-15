@@ -21,7 +21,7 @@ void print_diagnol(int n)
 		}
 
 		putchar('\\');
-		
+
 		if (len == (n - 1))
 		{
 			continue;
