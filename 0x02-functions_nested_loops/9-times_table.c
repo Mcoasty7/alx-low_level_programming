@@ -2,13 +2,13 @@
 
 /**
 * times_table - function that prints the 9 times table, starting with 0
-* Return: Always success
 */
+
 void times_table(void)
 {
 	int x, y, k;
 
-	fot (x = 0; x < 10; X++)
+	for (x = 0; x < 10; X++)
 	{
 		for (y = 0; y < 10; y++)
 		{
