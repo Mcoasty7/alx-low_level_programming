@@ -1,33 +1,29 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_diagnol - prints a diagnol
- * @n: parameter
- * Return:returns nothing
+ * print_diagnol - This draws a daignol line using characters \.
+ * @n - The number of \ character to be drawn.
  */
 
 void print_diagnol(int n)
 {
-	int len, space;
+	int line, gap;
 
 	if (n > 0)
 	{
-		for (len = 0; len < n; len++)
-	{
-		for (space = 0; space < len; space++)
+		for (line = 0; line <= n; line++)
 		{
-			puthar(' ');
+			for (gap = 0; gap <= line; gap++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			if (line == n - 1)
+			{
+				continue;
+			}
+			_putchar('\n');
 		}
-
-		putchar('\\');
-
-		if (len == (n - 1))
-		{
-			continue;
-		}
-		putchar('\n');
 	}
-	}
-	putchar('\n');
+	_putchar('\n');
 }
