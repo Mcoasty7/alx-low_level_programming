@@ -7,7 +7,7 @@
 
 void rev_string(char *s)
 {
-	"sam" -> "mas"
+	"sam"->"mas"
 		char tmp;
 	int i, length1, length2;
 
