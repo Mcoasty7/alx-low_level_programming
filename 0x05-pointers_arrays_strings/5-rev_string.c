@@ -2,12 +2,12 @@
 
 /**
  * rev_string -> reversing a string
- * @s: parameters
+ * @s: parameter s
  */
 
 void rev_string(char *s)
 {
-	"sam"->"mas"
+	"sam" -> "mas"
 		char tmp;
 	int i, length1, length2;
 
