@@ -3,8 +3,8 @@
 #include "main.h"
 
 /**
- * print_rev - prints a string in reverse order
- * @s: string to reverse
+ * print_rev - Prints a string in reverse order
+ * @s: String to reverse
  * Return: Nothing
  */
 
@@ -16,58 +16,3 @@ void print_rev(char *s)
 		putchar(*(s + len));
 	putchar(10);
 }
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --                                                                         3,1           All
-
