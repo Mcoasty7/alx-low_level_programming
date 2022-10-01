@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - print the number of arguments
- * @argc: The number of argument
- * @argv: An array of a pointer
- *
- * Return: Always 0
+ * main - this is a function to print its name
+ * @argc: argc parameter
+ * @argv: an array of command listed
+ * Return: 0 for success
  */
 
-int main
+int main(int argc, char *argv[] __attribute__((unused)))
+{
+	printf("%d\n", argc - 1);
+	return (0);
+}
