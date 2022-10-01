@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Print the name of the program
- * @argc: The number of arguments
- * @argv: An array of pointers
- *
- * Return: Always 0
+ * main - this is a function to print its name
+ * @argc: argc parameter
+ * @argv: an array of a command listed
+ * Return: 0 for success
  */
 
-int main(int __attribute__((__unused)) argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%\n", argv[0]);
+	printf("%s\n", *argv);
 	return (0);
 }
