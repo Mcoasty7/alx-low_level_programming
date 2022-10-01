@@ -1,33 +1,35 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - print possible combo of 3
+ * main - Entry point
  *
- * Return: returns zero at the end
+ * Return: Always success
  */
+
 int main(void)
 {
-	int i, p, m;
+	int num1, num2, num3;
 
-	for (i = 0; i <= 9; i++)
+	for (num1 = 0; num1 <= 8; num1++)
 	{
-		for (p = 1; p <= 9; p++)
+		for (num2 = num1 + 1; num2 <= 9; num2++)
 		{
-			for (m = 2; m <= 9; m++)
+			for (num3 = num2 + 1; num3 < 10; num3++)
 			{
-				if (m > p && p > i)
-				{
-					putchar(i + '0');
-					putchar(p + '0');
-					putchar(m + '0');
-					if (i != 7)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				putchar((num1 % 10) + '0');
+				putchar((num2 % 10) + '0');
+				putchar((num3 % 10) + '0');
+
+				if (num1 == 7 && num2 == 8 && num3 == 9)
+					continue;
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
-	putchar('\n')
-		return (0);
+	putchar('\n');
+
+return (0);
 }
